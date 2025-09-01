@@ -37,6 +37,9 @@ body {
 
   /*background: color imagem de fundo posição tamanho*/
   background: var(--bg-url) no-repeat top center/cover;
+  /*ocupa a tela toda*/
+  height: 100vh;
+  /*fonte do google fonts*/
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -161,4 +164,13 @@ footer {
   text-align: center;
   padding: 24px 0;
   font-size: 14px;
+}
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
