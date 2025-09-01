@@ -2,8 +2,13 @@
 
 <p align="center">
 MEU PRIMEIRO PROJETO DEVLINKS. <br/>
-<br>
+<b>
+MEU DEVLINK FOI PRODUZIDO ATRÁVES DO LAYOUT;
+<p align="center">
+  <img alt="projeto DevLinks" src="./assets/logo.png" width="100%">
+</p>
 
+<br>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
